@@ -54,7 +54,7 @@ const CreateProject = () => {
     transform transition-transform duration-300 ${createModal}`}
     >
       <div
-        className="bg-white shadow-xl shadow-black
+        className="bg-black shadow-xl shadow-white
         rounded-xl w-11/12 md:w-2/5 h-7/12 p-6"
       >
         <form onSubmit={handleSubmit} className="flex flex-col">
@@ -171,9 +171,9 @@ const CreateProject = () => {
 
           <button
             type="submit"
-            className="inline-block px-6 py-2.5 bg-green-600
+            className="inline-block px-6 py-2.5 bg-red-600
             text-white font-medium text-md leading-tight
-            rounded-full shadow-md hover:bg-green-700 mt-5"
+            rounded-full shadow-md hover:bg-red-700 mt-5"
           >
             Submit Project
           </button>

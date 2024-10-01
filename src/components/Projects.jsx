@@ -27,9 +27,9 @@ const Projects = ({ projects }) => {
         <div className="flex justify-center items-center my-5">
           <button
             type="button"
-            className="inline-block px-6 py-2.5 bg-green-600
+            className="inline-block px-6 py-2.5 bg-red-600
           text-white font-medium text-xs leading-tight uppercase
-          rounded-full shadow-md hover:bg-green-700"
+          rounded-full shadow-md hover:bg-red-700"
             onClick={() => setEnd(end + count)}
           >
             Load more
@@ -74,7 +74,7 @@ const ProjectCard = ({ project }) => {
 
           <div className="w-full bg-gray-300 overflow-hidden">
             <div
-              className="bg-green-600 text-xs font-medium
+              className="bg-red-600 text-xs font-medium
             text-green-100 text-center p-0.5 leading-none
             rounded-l-full"
               style={{ width: `${(project.raised / project.cost) * 100}%` }}
@@ -105,13 +105,13 @@ const ProjectCard = ({ project }) => {
               ) : project?.status == 0 ? (
                 <small className="text-gray-500">Open</small>
               ) : project?.status == 1 ? (
-                <small className="text-green-500">Accepted</small>
+                <small className="text-orange-500">Accepted</small>
               ) : project?.status == 2 ? (
                 <small className="text-gray-500">Reverted</small>
               ) : project?.status == 3 ? (
                 <small className="text-red-500">Deleted</small>
               ) : (
-                <small className="text-orange-500">Paid</small>
+                <small className="text-green-500">Paid</small>
               )}
             </div>
           </div>

@@ -24,7 +24,7 @@ const BackProject = ({ project }) => {
     transform transition-transform duration-300 ${backModal}`}
     >
       <div
-        className="bg-white shadow-xl shadow-black
+        className="bg-black shadow-xl shadow-white
         rounded-xl w-11/12 md:w-2/5 h-7/12 p-6"
       >
         <form onSubmit={handleSubmit} className="flex flex-col">
@@ -44,7 +44,7 @@ const BackProject = ({ project }) => {
               <img
                 src={
                   project?.imageURL ||
-                  'https://media.wired.com/photos/5926e64caf95806129f50fde/master/pass/AnkiHP.jpg'
+                  'https://www.techopedia.com/wp-content/uploads/2023/02/istock-958259766-1.jpeg'
                 }
                 alt={project?.title}
                 className="h-full w-full object-cover cursor-pointer"
@@ -73,9 +73,9 @@ const BackProject = ({ project }) => {
 
           <button
             type="submit"
-            className="inline-block px-6 py-2.5 bg-green-600
+            className="inline-block px-6 py-2.5 bg-red-600
             text-white font-medium text-md leading-tight
-            rounded-full shadow-md hover:bg-green-700 mt-5"
+            rounded-full shadow-md hover:bg-red-700 mt-5"
           >
             Back Project
           </button>
