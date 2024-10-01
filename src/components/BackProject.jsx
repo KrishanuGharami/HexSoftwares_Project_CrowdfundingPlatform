@@ -24,7 +24,7 @@ const BackProject = ({ project }) => {
     transform transition-transform duration-300 ${backModal}`}
     >
       <div
-        className="bg-black shadow-xl shadow-white
+        className="bg-white shadow-xl shadow-black
         rounded-xl w-11/12 md:w-2/5 h-7/12 p-6"
       >
         <form onSubmit={handleSubmit} className="flex flex-col">
@@ -77,7 +77,7 @@ const BackProject = ({ project }) => {
             text-white font-medium text-md leading-tight
             rounded-full shadow-md hover:bg-red-700 mt-5"
           >
-            Back Project
+            Back Your Projects
           </button>
         </form>
       </div>

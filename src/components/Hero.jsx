@@ -8,9 +8,9 @@ const Hero = () => {
         className="text-5xl md:text-6xl xl:text-7xl font-bold
       tracking-tight mb-12"
       >
-        <span className="capitalize">Bring creative projects to life on</span>
+        <span className="capitalize">Make Your Dream Projects</span>
         <br />
-        <span className="uppercase text-red-600">genesis.</span>
+        <span className="uppercase text-red-600">StarterFund</span>
       </h1>
       <div className="flex justify-center items-center space-x-2">
         <button
@@ -30,7 +30,7 @@ const Hero = () => {
         rounded-full shadow-md bg-transparent hover:bg-red-700
         hover:text-white"
         >
-          Back Projects
+          Back Your Projects
         </button>
       </div>
 
@@ -67,7 +67,7 @@ const Hero = () => {
             className="text-lg font-bold text-red-900
             leading-5"
           >
-            {stats?.totalDonations || 0} ETH
+            {stats?.totalDonations || 0} Ethereum (ETH)
           </span>
           <span>Donated</span>
         </div>

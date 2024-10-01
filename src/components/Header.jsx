@@ -38,7 +38,7 @@ const Header = () => {
             rounded-full shadow-md hover:bg-red-700"
             onClick={connectWallet}
           >
-            Connect Wallet
+            Connect Your Wallet
           </button>
         )}
       </div>

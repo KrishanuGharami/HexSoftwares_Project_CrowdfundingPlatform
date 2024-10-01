@@ -101,7 +101,7 @@ const ProjectDetails = ({ project }) => {
               rounded-full shadow-md hover:bg-red-700"
                     onClick={() => setGlobalState('backModal', 'scale-100')}
                   >
-                    Back Project
+                    Back Your Projects
                   </button>
                 ) : null}
 
