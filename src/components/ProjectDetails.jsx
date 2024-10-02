@@ -162,5 +162,4 @@ const ProjectDetails = ({ project }) => {
     </div>
   )
 }
-<div class="copywright-tag">&copyCopyright 2024 TexSolves Softwares by Krishanu Gharami. All rights reserved</div>
 export default ProjectDetails
